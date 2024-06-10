@@ -922,3 +922,11 @@ a:focus {
 #pied-page{
   text-align: center;
 }
+
+.mamap {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  top :auto;
+}
