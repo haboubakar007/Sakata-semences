@@ -60,8 +60,8 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .heading_container h2 {
@@ -72,8 +72,8 @@ body {
 
 .heading_container.heading_center {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -85,8 +85,8 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   background-size: cover;
   position: relative;
 }
@@ -98,16 +98,16 @@ body {
   width: 100%;
   height: 100%;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
-          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
 }
 
 .hero_area .hero_bg_box img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: top right;
-     object-position: top right;
+  object-position: top right;
 }
 
 .hero_area .hero_bg_box::before {
@@ -128,17 +128,17 @@ body {
 
 .sub_page .hero_area .hero_bg_box {
   -webkit-clip-path: none;
-          clip-path: none;
+  clip-path: none;
 }
 
 .sub_page .about_section .about_bg_box {
   -webkit-clip-path: none;
-          clip-path: none;
+  clip-path: none;
 }
 
 .sub_page .footer_section {
   -webkit-clip-path: none;
-          clip-path: none;
+  clip-path: none;
   padding-top: 75px;
 }
 
@@ -156,8 +156,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .header_section .user_option a {
@@ -166,8 +166,8 @@ body {
   display: flex;
   color: #ffffff;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .header_section .user_option a img {
@@ -191,7 +191,7 @@ a:focus {
 .btn:focus {
   outline: none !important;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .custom_nav-container .nav_search-btn {
@@ -208,8 +208,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .navbar-brand img {
@@ -248,8 +248,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-left: auto;
   margin-right: 75px;
 }
@@ -296,17 +296,17 @@ a:focus {
 
 .menu_btn-style button .s-1 {
   -webkit-transform: rotate(45deg) translateY(17px);
-          transform: rotate(45deg) translateY(17px);
+  transform: rotate(45deg) translateY(17px);
 }
 
 .menu_btn-style button .s-2 {
   -webkit-transform: translateX(100px);
-          transform: translateX(100px);
+  transform: translateX(100px);
 }
 
 .menu_btn-style button .s-3 {
   -webkit-transform: rotate(-45deg) translateY(-17px);
-          transform: rotate(-45deg) translateY(-17px);
+  transform: rotate(-45deg) translateY(-17px);
 }
 
 .overlay {
@@ -363,17 +363,17 @@ a:focus {
   position: relative;
   color: #ffffff;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding: 45px 0 90px 0;
 }
 
@@ -384,8 +384,8 @@ a:focus {
 
 .slider_section .row {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .slider_section .detail-box h1 {
@@ -418,15 +418,15 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding: 25px;
 }
 
 .slider_section .img-box img {
   width: 100%;
   -webkit-filter: drop-shadow(0 7px 5px rgba(0, 0, 0, 0.05));
-          filter: drop-shadow(0 7px 5px rgba(0, 0, 0, 0.05));
+  filter: drop-shadow(0 7px 5px rgba(0, 0, 0, 0.05));
 }
 
 .slider_section #customCarousel1 {
@@ -464,11 +464,11 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 275px;
   padding: 25px;
   background-color: #f7fafa;
@@ -504,8 +504,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-top: 45px;
 }
 
@@ -539,16 +539,16 @@ a:focus {
   width: 100%;
   height: 100%;
   -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
-          clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
 }
 
 .about_section .about_bg_box img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: center left;
-     object-position: center left;
+  object-position: center left;
 }
 
 .about_section .about_bg_box::before {
@@ -564,8 +564,8 @@ a:focus {
 
 .about_section .row {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .about_section .detail-box p {
@@ -612,7 +612,7 @@ a:focus {
   color: #101010;
   border-radius: 5px;
   -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.15);
 }
 
 .contact_section .form_container input::-webkit-input-placeholder {
@@ -663,16 +663,16 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
   padding: 0;
 }
 
 .contact_section .map_container .map {
   height: 100%;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .contact_section .map_container .map #googleMap {
@@ -684,8 +684,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 45px auto;
 }
 
@@ -695,11 +695,11 @@ a:focus {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 10px 40px 5px 15px;
   text-align: center;
   position: relative;
@@ -737,7 +737,7 @@ a:focus {
   background-color: #ffffff;
   z-index: -1;
   -webkit-clip-path: polygon(0 14%, 89% 14%, 89% 48%, 100% 53%, 89% 58%, 89% 100%, 0 100%);
-          clip-path: polygon(0 14%, 89% 14%, 89% 48%, 100% 53%, 89% 58%, 89% 100%, 0 100%);
+  clip-path: polygon(0 14%, 89% 14%, 89% 48%, 100% 53%, 89% 58%, 89% 100%, 0 100%);
 }
 
 .client_section .box .client_id:after {
@@ -750,7 +750,7 @@ a:focus {
   background-color: rgba(0, 0, 0, 0.2);
   z-index: -2;
   -webkit-filter: blur(25px);
-          filter: blur(25px);
+  filter: blur(25px);
 }
 
 .client_section .btn-box {
@@ -758,8 +758,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .client_section .btn-box a {
@@ -784,7 +784,7 @@ a:focus {
 .footer_section {
   padding: 175px 0 25px 0;
   -webkit-clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%);
-          clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%);
   background-color: #0e4644;
   color: #fefefe;
 }
@@ -814,11 +814,11 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border-radius: 100%;
   width: 40px;
   height: 40px;
@@ -839,24 +839,24 @@ a:focus {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .footer_section .contact_nav a {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: #ffffff;
   margin-bottom: 10px;
 }
@@ -919,14 +919,18 @@ a:focus {
 /*# sourceMappingURL=style.css.map */
 
 /* Pied de page*/
-#pied-page{
+#pied-page {
   text-align: center;
 }
 
 .mamap {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
-  top :auto;
+  top: auto;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
 }
