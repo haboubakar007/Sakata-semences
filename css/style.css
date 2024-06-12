@@ -496,7 +496,7 @@ a:focus {
 }
 
 .veg_section .box .detail-box .price_heading span {
-  color: #b6eb7a;
+  color: #b6eb7a; /* Couleur boite et sachet*/
 }
 
 .veg_section .btn-box {
