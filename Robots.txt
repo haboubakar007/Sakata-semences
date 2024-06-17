@@ -1,3 +1,3 @@
 User-agent: *
 Disallow: /private/
-Sitemap: https://https://github.com/haboubakar007/Sakata-semences/sitemap.xml
+Sitemap: https://github.com/haboubakar007/Sakata-semences/blob/main/sitemap_v.xml
